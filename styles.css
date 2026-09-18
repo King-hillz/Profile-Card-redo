@@ -1,0 +1,69 @@
+body {
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.profile-card img {
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   display: 0;
+   margin: 0 auto;
+}
+
+
+.profile-card {
+   background-color: #ffffff;
+   width: 90%;
+   max-width: 400px;
+   padding: 30px;
+   margin: 50px auto;
+   border-radius: 5px;
+   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.profile-card h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #222222;
+}
+
+.profile-card h2 {
+    text-align: center;
+    font-size: 21px;
+    color: #222222;
+}
+
+.profile-card p {
+    text-align: center;
+    color: #666666;
+    line-height: 1.6;
+}
+
+.profile-card ul {
+    list-style: none;
+    padding: 0; /* removes the browers default inside spacing on the list */
+}
+
+.profile-card li {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.profile-card a {
+    display: block;
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+.profile-card a:hover {
+    background-color: #1d4ed8;
+}
